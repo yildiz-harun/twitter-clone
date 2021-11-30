@@ -1,0 +1,47 @@
+.mainContainer{
+    border: 1px solid #f0f0f0;
+    border-top: 0;
+    border-bottom: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+.container div {
+    padding: 5% 22%;
+}
+
+.container p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #536471;
+}
+
+.goButton {
+    margin-left: 132px;
+    margin-top: 0px;
+    width: 135px;
+    height: 52px;
+    border-radius: 34px;
+    padding: 0px 16px 0px 16px;
+    background-color: #1D9BF0;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.goButton:hover {
+    background-color: #1A8CD8;
+}
